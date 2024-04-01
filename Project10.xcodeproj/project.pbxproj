@@ -9,23 +9,25 @@
 /* Begin PBXBuildFile section */
 		A1677F6C2BB97C8C00EBBCF5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1677F6B2BB97C8C00EBBCF5 /* AppDelegate.swift */; };
 		A1677F6E2BB97C8C00EBBCF5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1677F6D2BB97C8C00EBBCF5 /* SceneDelegate.swift */; };
-		A1677F702BB97C8C00EBBCF5 /* c.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1677F6F2BB97C8C00EBBCF5 /* c.swift */; };
+		A1677F702BB97C8C00EBBCF5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1677F6F2BB97C8C00EBBCF5 /* ViewController.swift */; };
 		A1677F732BB97C8C00EBBCF5 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = A1677F722BB97C8C00EBBCF5 /* Base */; };
 		A1677F752BB97C8D00EBBCF5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1677F742BB97C8D00EBBCF5 /* Assets.xcassets */; };
 		A1677F782BB97C8D00EBBCF5 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = A1677F772BB97C8D00EBBCF5 /* Base */; };
 		A1677F802BBA251E00EBBCF5 /* PersonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1677F7F2BBA251E00EBBCF5 /* PersonCell.swift */; };
+		A1D4E8912BBB52450008C521 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D4E8902BBB52450008C521 /* Person.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A1677F682BB97C8C00EBBCF5 /* Project10.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Project10.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1677F6B2BB97C8C00EBBCF5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A1677F6D2BB97C8C00EBBCF5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A1677F6F2BB97C8C00EBBCF5 /* c.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = c.swift; sourceTree = "<group>"; };
+		A1677F6F2BB97C8C00EBBCF5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A1677F722BB97C8C00EBBCF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A1677F742BB97C8D00EBBCF5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A1677F772BB97C8D00EBBCF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A1677F792BB97C8D00EBBCF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A1677F7F2BBA251E00EBBCF5 /* PersonCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonCell.swift; sourceTree = "<group>"; };
+		A1D4E8902BBB52450008C521 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,7 +63,8 @@
 				A1677F6B2BB97C8C00EBBCF5 /* AppDelegate.swift */,
 				A1677F6D2BB97C8C00EBBCF5 /* SceneDelegate.swift */,
 				A1677F7F2BBA251E00EBBCF5 /* PersonCell.swift */,
-				A1677F6F2BB97C8C00EBBCF5 /* c.swift */,
+				A1677F6F2BB97C8C00EBBCF5 /* ViewController.swift */,
+				A1D4E8902BBB52450008C521 /* Person.swift */,
 				A1677F712BB97C8C00EBBCF5 /* Main.storyboard */,
 				A1677F742BB97C8D00EBBCF5 /* Assets.xcassets */,
 				A1677F762BB97C8D00EBBCF5 /* LaunchScreen.storyboard */,
@@ -141,7 +144,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A1677F702BB97C8C00EBBCF5 /* c.swift in Sources */,
+				A1D4E8912BBB52450008C521 /* Person.swift in Sources */,
+				A1677F702BB97C8C00EBBCF5 /* ViewController.swift in Sources */,
 				A1677F6C2BB97C8C00EBBCF5 /* AppDelegate.swift in Sources */,
 				A1677F802BBA251E00EBBCF5 /* PersonCell.swift in Sources */,
 				A1677F6E2BB97C8C00EBBCF5 /* SceneDelegate.swift in Sources */,
